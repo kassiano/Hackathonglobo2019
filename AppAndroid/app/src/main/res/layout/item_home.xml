@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tvTitle"
+                  android:textStyle="bold"
+                  android:textColor="@color/colorPrimary"
+                  android:textSize="18sp"
+                  android:layout_marginStart="16sp"
+                  android:layout_marginEnd="16sp"
+                  tools:text="VALE TAÇA" />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvMoment"
+              android:textSize="12sp"
+              android:layout_marginStart="16sp"
+              android:layout_marginEnd="16sp"
+              android:layout_marginTop="10dp"
+              android:textStyle="bold"
+              tools:text="29 - 2 Tempo - Situação do momento" />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvDescription"
+              android:textSize="12sp"
+              android:layout_marginStart="16sp"
+              android:layout_marginEnd="16sp"
+              android:layout_marginTop="5dp"
+              tools:text="Galo vai ficando com título. Cruzeiro precisa do empate para erguer a taça." />
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:layout_marginTop="15dp"
+               android:src="@drawable/img_01"
+               android:scaleType="centerCrop"
+               android:id="@+id/imgNew" />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvWatching"
+              android:textSize="12sp"
+              android:layout_marginStart="25sp"
+              android:layout_marginTop="5dp"
+              tools:text="67508 Assistindo" />
+
+</LinearLayout>

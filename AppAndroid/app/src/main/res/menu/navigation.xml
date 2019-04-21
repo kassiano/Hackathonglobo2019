@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/title_home"/>
+
+    <item
+            android:id="@+id/navigation_my_team"
+            android:icon="@drawable/ic_security"
+            android:title="@string/title_my_team"/>
+
+    <item
+            android:id="@+id/navigation_calendar"
+            android:icon="@drawable/ic_event"
+            android:title="@string/title_calendar"/>
+
+    <item
+            android:id="@+id/navigation_tables"
+            android:icon="@drawable/ic_format"
+            android:title="@string/title_table"/>
+
+    <item
+            android:id="@+id/navigation_interatividade"
+            android:icon="@drawable/ic_qr_code"
+            android:title="@string/title_interatividade"/>
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="130dp"
+                                             android:background="#000"
+>
+
+
+    <ImageView android:layout_width="160dp"
+               android:layout_height="90dp"
+               app:layout_constraintTop_toTopOf="parent"
+               android:layout_marginTop="16dp"
+               app:layout_constraintStart_toStartOf="parent"
+               android:layout_marginStart="16dp"
+               android:id="@+id/imgTumbnail"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDate"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" android:layout_marginStart="24dp"
+            app:layout_constraintStart_toEndOf="@+id/imgTumbnail" tools:text="12/05/2019"/>
+    <TextView
+            tools:text="Corinthians x goias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#FFF"
+            android:id="@+id/tvMatch"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvDate" android:layout_marginStart="24dp"
+            app:layout_constraintStart_toEndOf="@+id/imgTumbnail"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:id="@+id/tvTime"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvMatch" android:layout_marginStart="24dp"
+            app:layout_constraintStart_toEndOf="@+id/imgTumbnail" tools:text="45 2 tempo"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,738 @@
+body {
+  text-align: center;
+  font-size: 18px !important;
+}
+
+.content-div {
+  border-bottom: 1px #142861 solid;
+  border-top: 1px #142861 solid;
+}
+
+.btn {
+  border-radius: 0.75rem !important;
+}
+
+.header-grid {
+  background-image: url('../static/images/beer-blue.png');
+  background-color: #142861;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  height: auto;
+  padding-bottom: 5%;
+}
+
+.menu-itens {
+  margin-left: 5%;
+  width: 100%;
+}
+
+.ambev-weme-logo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+.default-button {
+  font-weight: bold !important;
+  background-color: #d71e2c !important;
+  border-color: #d71e2c !important;
+  font-size: 1em !important;
+  color: white;
+  width: 17em;
+  height: 3em;
+  margin: 0% 0% 5% 0%;
+}
+
+.call-to-action {
+  margin-top: 8%;
+  margin-left: 4%;
+}
+
+.call-to-action h1 {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.introduction-text h5 {
+  width: 86%;
+  margin: 3% 0% 4% 0%;
+}
+
+.introduction-text p {
+  font-size: 15px !important;
+  margin-bottom: 5%;
+}
+
+.introduction-text a {
+  color: white !important;
+  text-decoration: underline;
+}
+
+.about-program {
+  padding: 5% 3% 5% 3%;
+  height: auto;
+}
+
+.about-program h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-program p {
+  width: 100%;
+  text-align: center;
+  margin: 2% 25% 2% 25%;
+}
+
+.for-whom {
+  padding: 5% 3% 5% 3%;
+  height: auto;
+  background: #142861;
+}
+
+.for-whom h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.card {
+  width: 18rem;
+  margin-left: 4rem;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border: #252729 !important;
+  border-radius: 0.75rem !important;
+}
+
+.cards-row {
+  margin-top: 3%;
+}
+
+.benefits {
+  padding: 5% 3% 5% 3%;
+  height: auto;
+}
+
+.card-img-top {
+  border-top-left-radius: calc(0.75rem - 1px) !important;
+  border-top-right-radius: calc(0.75rem - 1px) !important;
+}
+
+.benefits h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.benefits-text {
+  color: black;
+  text-decoration: underline;
+}
+
+.benefits-content {
+  margin-bottom: 5%;
+}
+
+.benefits-content h5 {
+  font-weight: bold;
+}
+
+.schedule {
+  padding: 5% 3% 5% 3%;
+  height: auto;
+}
+
+.schedule h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 0% 0% 4% 0%;
+}
+
+.left-schedule {
+  float: right;
+  margin: 0% 0% 2% 0%;
+}
+
+.number-schedule {
+  font-size: 3em;
+  padding: 1% 4.5% 1% 4.5%;
+  margin: 2%;
+  float: right;
+}
+
+.stage {
+  margin-bottom: 3% !important;
+  text-align: start;
+}
+
+.stage p {
+  margin-top: 6.5%;
+}
+
+.challenges {
+  background: #142861;
+  padding: 5% 0% 5% 0%;
+  color: white;
+}
+
+.challenge-introduction {
+  text-align: center;
+  margin-bottom: 35px;
+  padding: 0px 25px 0 25px;
+}
+
+.challenges h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.challenges h3 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.challenge-row {
+  padding-bottom: 5%;
+}
+
+.challenge-content {
+  height: 100%;
+  text-align: center;
+  display: table !important;
+}
+
+.challenge-text {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.more-challenges {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.quality-solutions {
+  text-align: left !important;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.productivity-solutions {
+  text-align: left !important;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.security-solutions {
+  text-align: left !important;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.challenge p {
+  padding: 0% 5% 0% 5%;
+  text-align: center;
+}
+
+.challenge-image {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.faq {
+  background: #142861;
+  color: white;
+}
+
+.faq h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*
+Register form
+*/
+
+.register form label {
+  display: block;
+  font-size: 1em;
+  font-weight: normal;
+  color: black;
+}
+
+.register form input {
+  width: 100%;
+  font-size: 16px;
+  display: block;
+  margin: 0.5em 0 1em 0;
+  padding: 0.5em 0.5em;
+  border-radius: 4px;
+  border: 1px black solid;
+}
+
+.register form select {
+  width: 100%;
+  font-size: 16px;
+  display: block;
+  margin: 0.5em 0 1em 0;
+  padding: 0.5em 0.5em;
+  border-radius: 4px;
+  border: 1px black solid;
+}
+
+.register form textarea {
+  width: 100%;
+  display: block;
+  margin: 0.5em 0 2em 0;
+  padding: 0.5em 0.5em;
+  border-radius: 4px;
+  border: 1px black solid;
+}
+
+.register form button,
+.btn_a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1em;
+  background: #40bc7c;
+  padding: 0.65em 2em;
+  border-radius: 0.75rem;
+  border: 0;
+  margin-bottom: 1em;
+  text-decoration: none;
+  width: 10rem;
+  height: 4rem;
+}
+
+.register form button:hover,
+.btn_a:hover {
+  cursor: pointer;
+  background: #31a167;
+}
+
+/*
+ Contact form
+*/
+
+.contact {
+  background: #142861;
+  padding: 0% 20% 0% 20%;
+}
+
+.contact h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 3%;
+}
+
+.contact h6 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 3%;
+}
+
+.contact form label {
+  display: block;
+  font-size: 1.1em;
+  font-weight: normal;
+  color: white;
+}
+
+.contact form input {
+  width: 100%;
+  display: block;
+  margin: 0.5em 0 1em 0;
+  padding: 0.5em 0.5em;
+  border-radius: 4px;
+  border: 0;
+}
+
+.contact form textarea {
+  width: 100%;
+  display: block;
+  margin: 0.5em 0 2em 0;
+  padding: 0.5em 0.5em;
+  border-radius: 4px;
+  border: 0;
+}
+
+.contact form button,
+.btn_a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1em;
+  background: #40bc7c;
+  padding: 0.65em 2em;
+  border-radius: 0.75rem;
+  border: 0;
+  margin-bottom: 4em;
+  text-decoration: none;
+  width: 10rem;
+  height: 4rem;
+}
+
+.contact form button:hover,
+.btn_a:hover {
+  cursor: pointer;
+  background: #31a167;
+}
+.error,
+.correct,
+.info {
+  display: block;
+  width: 90%;
+  border-radius: 4px;
+  text-align: center;
+  padding: 0.75em 0;
+  margin-top: 2em;
+  background: #eb194b;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 1.5em;
+}
+.correct {
+  background: #00af64;
+}
+
+.info {
+  background: #ffbe37;
+}
+
+.button-question {
+  text-align: center;
+}
+
+.check-img {
+  text-align: center;
+  display: block !important;
+  margin-bottom: 5%;
+}
+
+.check-img img {
+  border: solid #00af64 2px;
+  padding: 5px;
+}
+
+.success-content {
+  text-align: center;
+  display: block !important;
+  margin-top: 5%;
+}
+
+footer {
+  margin: 2% 0% 2% 0%;
+  font-size: 0.75em;
+}
+
+footer .create-love {
+  margin-top: 2%;
+}
+
+/*
+Loading
+*/
+
+#contact-loading {
+  display: none;
+}
+
+#register-loading {
+  display: none;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.lds-dual-ring:after {
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+Register new page
+*/
+
+.register-new {
+  padding: 0% 20% 0% 20%;
+}
+
+.register-new h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 3%;
+}
+
+.register-new h6 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 3%;
+}
+
+.register-new form label {
+  display: block;
+  font-size: 1.1em;
+  font-weight: normal;
+  color: white;
+}
+
+.register-new form input {
+  width: 100%;
+  display: block;
+  margin: 0.25em 0 0.5em 0;
+  padding: 0.25em 0.25em;
+  border-radius: 4px;
+  border: 0;
+}
+
+.register-new form select {
+  width: 100%;
+  font-size: 16px;
+  display: block;
+  margin: 0.25em 0 0.5em 0;
+  padding: 0.25em 0.25em;
+  border-radius: 4px;
+  border: 0;
+}
+
+.register-new form textarea {
+  width: 100%;
+  display: block;
+  margin: 0.5em 0 2em 0;
+  padding: 0.5em 0.5em;
+  border-radius: 4px;
+  border: 0;
+}
+
+.register-new form button,
+.btn_a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1em;
+  background: #40bc7c;
+  padding: 0.65em 2em;
+  border-radius: 0.75rem;
+  border: 0;
+  margin-bottom: 4em;
+  text-decoration: none;
+  width: 10rem;
+  height: 4rem;
+}
+
+.register-new form button:hover,
+.btn_a:hover {
+  cursor: pointer;
+  background: #31a167;
+}
+
+/*===== Vertical Timeline =====*/
+#conference-timeline {
+  position: relative;
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+}
+#conference-timeline .timeline-start,
+#conference-timeline .timeline-end {
+  display: table;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: #142861;
+  padding: 15px 23px;
+  color: #fff;
+  max-width: 5%;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+#conference-timeline .conference-center-line {
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  margin-left: -2px;
+  background: #142861;
+  z-index: -1;
+}
+#conference-timeline .conference-timeline-content {
+  padding-top: 67px;
+  padding-bottom: 67px;
+}
+.timeline-article {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+}
+.timeline-article .content-left-container,
+.timeline-article .content-right-container {
+  max-width: 44%;
+  width: 100%;
+}
+
+.timeline-article .content-left,
+.timeline-article .content-right {
+  position: relative;
+  width: auto;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  padding: 27px 25px;
+}
+.timeline-article p {
+  margin: 0 0 0 60px;
+  padding: 0;
+  font-weight: 400;
+  color: #242424;
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+}
+.timeline-article p span.article-number {
+  position: absolute;
+  font-weight: 300;
+  font-size: 44px;
+  left: -60px;
+  top: 0px;
+  color: #142861;
+}
+.timeline-article .content-left-container {
+  float: left;
+}
+.timeline-article .content-right-container {
+  float: right;
+}
+.timeline-article .content-left:before,
+.timeline-article .content-right:before {
+  position: absolute;
+  top: 20px;
+  font-size: 23px;
+  font-family: 'FontAwesome';
+  color: #fff;
+}
+.timeline-article .content-left:before {
+  content: '\f0da';
+  right: -8px;
+}
+.timeline-article .content-right:before {
+  content: '\f0d9';
+  left: -8px;
+}
+.timeline-article .meta-date {
+  position: absolute;
+  top: 0;
+  left: 49%;
+  width: 30px;
+  height: 30px;
+  margin-left: -6px;
+  color: #fff;
+  border-radius: 100%;
+  background: #142861;
+}
+.timeline-article .meta-date .date,
+.timeline-article .meta-date .month {
+  display: block;
+  text-align: center;
+  font-weight: 900;
+}
+.timeline-article .meta-date .date {
+  font-size: 50px;
+  line-height: 68px;
+}
+.timeline-article .meta-date .month {
+  font-size: 18px;
+  line-height: 10px;
+}
+/*===== // Vertical Timeline =====*/
+
+/*===== Responsive Vertical Timeline =====*/
+@media only screen and (max-width: 830px) {
+  #conference-timeline .timeline-start,
+  #conference-timeline .timeline-end {
+    margin: 0;
+  }
+  #conference-timeline .conference-center-line {
+    margin-left: 0;
+    left: 50px;
+  }
+  .timeline-article .meta-date {
+    margin-left: 0;
+    left: 20px;
+  }
+  .timeline-article .content-left-container,
+  .timeline-article .content-right-container {
+    max-width: 100%;
+    width: auto;
+    float: none;
+    margin-left: 110px;
+    min-height: 53px;
+  }
+  .timeline-article .content-left-container {
+    margin-bottom: 20px;
+  }
+  .timeline-article .content-left,
+  .timeline-article .content-right {
+    padding: 10px 25px;
+    min-height: 65px;
+  }
+  .timeline-article .content-left:before {
+    content: '\f0d9';
+    right: auto;
+    left: -8px;
+  }
+  .timeline-article .content-right:before {
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .timeline-article p {
+    margin: 0;
+  }
+  .timeline-article p span.article-number {
+    display: none;
+  }
+}
+/*===== // Resonsive Vertical Timeline =====*/
